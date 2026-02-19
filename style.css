@@ -58,7 +58,25 @@ body {
     gap: 20px;
     align-items: center;
 }
+.learn {
+    position: relative;
+    cursor: pointer;
+}
 
+.learn__dropdown {
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+    width: 100px;
+    top: 150%;
+    padding: 15px;
+    right: 0;
+    display: none;
+    
+}
+.learn:hover .learn__dropdown {
+    display: block;
+}
 
 
 .categories {
