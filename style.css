@@ -105,10 +105,14 @@ body {
     color: white;
     padding: 5px 10px;
     border-radius: 20px;
-   
-    
-    
-    
+    border: solid #A435F0 1px;
+    cursor: pointer;
+}
+.categories p:hover{
+    transition: 1s;
+    background-color: transparent;
+    color: black;
+    border: solid #A435F0 1px;
 }
 
 .banner {
@@ -218,6 +222,9 @@ body {
     background-color: black;
     color: #ffffff;
 }
+.footer__1 p:hover {
+    cursor: pointer;
+}
 
 .footer__1 {
     display: flex;
@@ -233,6 +240,10 @@ body {
     align-items: center;
     display: flex;
     justify-content: space-between;
+}
+.footer__2 p:hover {
+    cursor: pointer;
+    
 }
 
 /* Mobile Responsive */
