@@ -16,13 +16,13 @@ body {
     justify-content: space-between;
     padding: 15px;
     box-shadow: gray 0px 1px 5px;
-    align-items:flex-start;
+    align-items: flex-start;
     position: sticky;
     top: 0;
     background-color: white;
     z-index: 1;
     flex-wrap: wrap;
-    
+
 }
 
 .navbar__s1__title {
@@ -68,6 +68,7 @@ body {
     align-items: center;
     margin-left: auto;
 }
+
 .learn {
     position: relative;
     cursor: pointer;
@@ -82,8 +83,9 @@ body {
     padding: 15px;
     right: 0;
     display: none;
-    
+
 }
+
 .learn:hover .learn__dropdown {
     display: block;
 }
@@ -94,7 +96,7 @@ body {
     gap: 20px;
     padding: 15px;
     box-shadow: gray 0px 1px 5px;
-    justify-content:space-around;
+    justify-content: space-around;
     flex-wrap: wrap;
     flex-shrink: 1;
     flex-grow: 1;
@@ -108,7 +110,8 @@ body {
     border: solid #A435F0 1px;
     cursor: pointer;
 }
-.categories p:hover{
+
+.categories p:hover {
     transition: 1s;
     background-color: transparent;
     color: black;
@@ -134,8 +137,9 @@ body {
     left: 5%;
     border-radius: 2.5px;
 }
+
 .sale__image:hover {
-    background-color:#A435F0;
+    background-color: #A435F0;
     color: rgb(255, 255, 255);
     cursor: pointer;
     transform: scale(1.1);
@@ -158,10 +162,9 @@ body {
 
 .course__card {
     width: auto;
-    /* Allow cards to form up to 4 columns and wrap naturally without media queries */
     flex: 1 1 22%;
     max-width: calc(25% - 15px);
-    min-width: 220px;
+    min-width: 150px;
     box-shadow: gray 0px 1px 5px;
     border-radius: 10px;
     display: flex;
@@ -206,7 +209,7 @@ body {
 }
 
 .popular {
-    padding: 10px;
+    padding: 5px;
 }
 
 .popular__Container {
@@ -222,6 +225,7 @@ body {
     background-color: black;
     color: #ffffff;
 }
+
 .footer__1 p:hover {
     cursor: pointer;
 }
@@ -241,40 +245,43 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
 .footer__2 p:hover {
     cursor: pointer;
-    
+
 }
 
 /* Mobile Responsive */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .navbar__s3 {
         display: none;
     }
-    
+
     .navbar__hamburger {
         display: flex;
     }
-    
+
     .categories {
         display: none;
     }
-    .recomended__container {
-        justify-content: center;
 
-        
+    .recomended__container {
+        justify-content: space-evenly;
     }
+
     .recomended__container .course__card {
-        flex: 1 1 100%;
-        max-width: 80%;
+        max-width: 38%;
     }
+
     .popular__Container {
-        justify-content: center;
+        justify-content: space-evenly;
     }
+
     .popular__Container .course__card {
-        flex: 1 1 100%;
-        max-width: 80%;
+        max-width: 38%;
+
     }
+
     .sale__image {
         width: 40%;
         font-size: 10px;
