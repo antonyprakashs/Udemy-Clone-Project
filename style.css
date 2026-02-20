@@ -121,14 +121,22 @@ body {
 }
 
 .sale__image {
-    width: 35%;
-
+    width: 25%;
     border: solid black 1px;
     background-color: white;
     padding: 2%;
     position: absolute;
     top: 10%;
     left: 5%;
+    border-radius: 2.5px;
+}
+.sale__image:hover {
+    background-color:#A435F0;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    border: #A435F0;
 }
 
 .recomended {
@@ -255,5 +263,9 @@ body {
     .popular__Container .course__card {
         flex: 1 1 100%;
         max-width: 80%;
+    }
+    .sale__image {
+        width: 40%;
+        font-size: 10px;
     }
 }
