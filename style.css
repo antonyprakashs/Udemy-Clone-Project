@@ -22,7 +22,7 @@ body {
     background-color: white;
     z-index: 1;
     flex-wrap: wrap;
-    flex-shrink: 1;
+    
 }
 
 .navbar__s1__title {
@@ -235,5 +235,9 @@ body {
     
     .navbar__hamburger {
         display: flex;
+    }
+    
+    .categories {
+        display: none;
     }
 }
