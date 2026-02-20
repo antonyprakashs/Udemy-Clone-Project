@@ -240,4 +240,20 @@ body {
     .categories {
         display: none;
     }
+    .recomended__container {
+        justify-content: center;
+
+        
+    }
+    .recomended__container .course__card {
+        flex: 1 1 100%;
+        max-width: 80%;
+    }
+    .popular__Container {
+        justify-content: center;
+    }
+    .popular__Container .course__card {
+        flex: 1 1 100%;
+        max-width: 80%;
+    }
 }
